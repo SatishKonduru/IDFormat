@@ -131,9 +131,9 @@ export class AppComponent  implements OnInit{
   }
 
   // Method to handle when a format is selected
-  onSelectFormat(selectedFormatId: string) {
-    // You can add any additional logic if needed
-  }
+  // onSelectFormat(selectedFormatId: string) {
+  //   // You can add any additional logic if needed
+  // }
 
   // Method to handle mat-slide-toggle change
   onToggleRandomNumber() {
