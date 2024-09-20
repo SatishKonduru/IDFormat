@@ -62,19 +62,20 @@
         </tr>
       </tbody>
     </table>
-  </div>
-  <div class="col-12 mt-3 ">
-    <div class="row d-flex">
-      <span class="col-6 text-center">
-        <mat-form-field appearance="outline" class="w-100 mt-3">
-          <input matInput [(ngModel)]="previewId" placeholder="Preview ID" readonly>
-        </mat-form-field>
-      </span>
-      <span class="col-6 text-center">
-        <button mat-raised-button color="primary" (click)="generatePreview()">Generate Preview</button>
-      </span>
+    <div class="col-12 mt-1 ">
+      <div class="row d-flex">
+        <div class="col-4 text-end">
+          <mat-form-field appearance="outline" >
+            <input matInput [(ngModel)]="previewId" placeholder="Preview ID" readonly>
+          </mat-form-field>
+        </div>
+        <span class="col-6 text-center">
+          <button mat-raised-button color="primary" (click)="generatePreview()">Generate Preview</button>
+        </span>
+      </div>
+      
+      
     </div>
-    
-    
   </div>
+  
 </div>
